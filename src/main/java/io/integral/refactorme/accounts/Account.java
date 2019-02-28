@@ -1,4 +1,4 @@
-package io.integral.refactorme.models;
+package io.integral.refactorme.accounts;
 
 import javax.persistence.Entity;
 

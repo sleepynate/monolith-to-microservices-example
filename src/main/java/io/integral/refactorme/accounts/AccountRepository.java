@@ -1,6 +1,5 @@
-package io.integral.refactorme.repositories;
+package io.integral.refactorme.accounts;
 
-import io.integral.refactorme.models.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AccountRepository extends JpaRepository<Account, Long> {

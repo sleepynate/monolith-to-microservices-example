@@ -1,6 +1,5 @@
-package io.integral.refactorme.repositories;
+package io.integral.refactorme.licenses;
 
-import io.integral.refactorme.models.License;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface LicenseRepository extends JpaRepository<License, Long> {

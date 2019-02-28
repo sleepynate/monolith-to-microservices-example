@@ -1,7 +1,5 @@
-package io.integral.refactorme.controllers;
+package io.integral.refactorme.products;
 
-import io.integral.refactorme.models.License;
-import io.integral.refactorme.repositories.LicenseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,13 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class LicenseController {
+public class ProductController {
 
     @Autowired
-    LicenseRepository repo;
+    ProductRepository repo;
 
-    @GetMapping("/licenses")
-    public List<License> getAccounts() {
+    @GetMapping("/products")
+    public List<Product> getAccounts() {
         return repo.findAll();
     }
 

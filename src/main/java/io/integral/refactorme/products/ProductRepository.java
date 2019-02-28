@@ -1,6 +1,5 @@
-package io.integral.refactorme.repositories;
+package io.integral.refactorme.products;
 
-import io.integral.refactorme.models.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
