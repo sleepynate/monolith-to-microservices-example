@@ -4,3 +4,8 @@ pluginManagement {
 	}
 }
 rootProject.name = 'refactorme'
+include 'account-service'
+findProject(':account-service')?.name = 'accountservice'
+include 'license-service'
+include 'product-service'
+
